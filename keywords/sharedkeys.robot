@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Ключевые слова для Suite 123
+Documentation       Ключевые слова для Suite
 Library             RPA.HTTP
 Library             String
 Library             Collections
@@ -16,8 +16,8 @@ ${DEF}       "\\033[0m"
 
 *** Keywords ***
 :>>Suite Setup
-    ${purple}=      Evaluate  ${PURPLE}
-    ${def}=         Evaluate  ${DEF}
+    ${purple}=          Evaluate  ${PURPLE}
+    ${def}=             Evaluate  ${DEF}
     Log To Console      \n${purple}Старт тестов: ${SUITE DOCUMENTATION}${def}\n
 
 

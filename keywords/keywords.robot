@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Ключевые слова для Suite
+Documentation       Ключевые слова для Suite 123
 Library             RPA.HTTP
 Library             String
 Library             Collections

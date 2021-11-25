@@ -2,6 +2,7 @@ testrun/
 output/
 venv/
 temp/
+shared/
 .rpa/
 .idea/
 .ipynb_checkpoints/

@@ -8,7 +8,7 @@ Variables       MyVariables.py
 
 *** Tasks ***
 Example Task
-    Example Keyword
+    :>>Example Keyword
     Example Python Keyword
     Log     ${TODAY}
 
